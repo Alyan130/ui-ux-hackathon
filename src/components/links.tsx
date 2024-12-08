@@ -1,11 +1,4 @@
 
-import { RiMenuLine } from "react-icons/ri";
-import {
-    Sheet,
-    SheetContent,
-    SheetTrigger,
-  } from "../components/ui/sheet";
-
 import Link from "next/link";
 
 export default function Navbar() {

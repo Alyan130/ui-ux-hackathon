@@ -36,7 +36,7 @@ function OurBrand() {
           </img>
           <h3 className="text-xl text-[#007580] font-medium mb-2">Unbeatable Prices</h3>
           <p className="text-[16px]  text-[#007580]">
-            For our materials and quality, you won't find better prices anywhere
+            For our materials and quality  you wont find better prices anywhere
           </p>
         </div>
 
