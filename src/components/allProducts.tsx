@@ -12,9 +12,9 @@ export default function AllProducts() {
             </span>
           </div>
 <div className="py-4 w-full flex flex-wrap gap-x-4  gap-y-10 md:gap-y-12 justify-center md:justify-center">
-  {carddata.map((e, index) => (
+  {carddata.map((e) => (
     <ProductCard
-      key={index}
+      key={e.index}
       index={e.index}
       image={e.image}
       tag={e.tag}
