@@ -1,7 +1,14 @@
-import { productdata } from "@/components/productcard";
 
 
-const carddata:productdata[]=[
+interface pdata{
+    index:number,
+    image:string,
+    tag?:string,
+   cutprice?:string,
+}
+
+
+const carddata:pdata[]=[
     {
         index:0,
         image:"/images/Image.png",

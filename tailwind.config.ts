@@ -9,7 +9,14 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		fontFamily:{
+		   inter:['Inter','sans-serif'],
+		   roboto:['Roboto','sans-serif'],
+		   poppins:['Poppins','sans-serif']
+		},
   		colors: {
+			color6:"#000000",
+			color5:"#9F9F9F",
 			color1:"#272343",
 			iconcolor:"#007580",
 			color3:"#F0F2F3",

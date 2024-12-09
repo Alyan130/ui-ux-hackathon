@@ -37,7 +37,7 @@ export function ProductPosts() {
   return (
     <section className="py-10 sm:py-16 md:py-18  px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-2xl md:text-5xl font-meduim text-center mb-10">
+        <h2 className="text-2xl md:text-5xl font-meduim text-center mb-10 font-roboto">
           Follow Products And Discounts On Instagram
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 px-0 md:px-8">

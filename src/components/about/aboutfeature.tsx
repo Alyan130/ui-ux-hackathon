@@ -1,6 +1,6 @@
 import React from 'react';
 
-function OurBrand() {
+export default function OurBrand() {
   return (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-16">
       <div className="w-full  py-1 flex flex-row items-center justify-center ml-1 mb-6">
@@ -10,7 +10,7 @@ function OurBrand() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {/* Tile 1 */}
+   
         <div className="bg-gray-100 rounded-lg p-6 text-left">
           <img src="/icons/Delivery.png" className="h-6 w-6 mb-4" >
           </img>
@@ -20,7 +20,7 @@ function OurBrand() {
           </p>
         </div>
                      
-        {/* Tile 2 */}
+       
         <div className="bg-gray-100 rounded-lg p-6 text-left">
         <img src="/icons/Checkmark--outline.png" className="h-6 w-6 mb-4" >
           </img>
@@ -30,7 +30,7 @@ function OurBrand() {
           </p>
         </div>
 
-        {/* Tile 3 */}
+      
         <div className="bg-gray-100 rounded-lg p-6 text-left">
         <img src="/icons/Purchase.png" className="h-6 w-6 mb-4" >
           </img>
@@ -40,7 +40,7 @@ function OurBrand() {
           </p>
         </div>
 
-        {/* Tile 4 */}
+    
         <div className="bg-gray-100 rounded-lg p-6 text-left">
         <img src="/icons/Sprout.png" className="h-6 w-6 mb-4" >
           </img>
@@ -53,5 +53,3 @@ function OurBrand() {
     </section>
   );
 }
-
-export default OurBrand;

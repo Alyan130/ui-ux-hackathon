@@ -15,9 +15,9 @@ export default function ProductCard({index,image,tag,cutprice}:productdata){
  return(
    <>
 
-<Link href={`/product/${index}`}><div className="w-[320px]  md:w-[260px] h-96 flex flex-col">
+<div className=" hover:scale-105 transition-all duration-200 ease w-[320px]  md:w-[260px] h-96 flex flex-col">
   
-      <div
+<Link href={`/product/${index}`}><div
         className="relative w-full h-80 rounded-[10px] bg-cover bg-center"
         style={{ backgroundImage: `url(${image})` }}
       >
@@ -33,7 +33,7 @@ export default function ProductCard({index,image,tag,cutprice}:productdata){
           )
         ) : null}
       </div>
-      
+      </Link>
       <div className="w-full flex flex-row justify-between py-3 px-1">
         <div className="flex flex-col space-y-1">
           <p className="text-[16px]">Library stool chair</p>
@@ -47,7 +47,7 @@ export default function ProductCard({index,image,tag,cutprice}:productdata){
         </Link>
       </div>
     </div>
-    </Link>
+
    </>
  );
 }

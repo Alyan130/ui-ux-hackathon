@@ -5,12 +5,12 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 
 export default function Cart() {
   return (
-    <section className="w-full py-20 md:py-32">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-12">
+    <section className="w-full py-12 mt-10 md:py-24">
+      <div className="max-w-6xl mx-auto px-6 sm:px-6 lg:px-12">
         <div className="w-full flex flex-col md:flex-row gap-8 justify-between">
-          {/* Cart Items */}
+         
           <div className="w-full lg:w-[70%] flex flex-col space-y-16">
-            {/* Cart Item 1 */}
+          
             <div className="w-full flex flex-row justify-between">
               <div className="w-[100%] flex  flex-col md:flex-row gap-8">
                 <div
@@ -88,7 +88,7 @@ export default function Cart() {
 
             <hr className="my-4" />
 
-            <button className="w-full bg-[#029FAE] rounded-[25px] text-white py-4 px-4 rounded-lg mt-4">
+            <button className="w-full hover:bg-teal-600 bg-[#029FAE] text-white py-4 px-4 rounded-[25px] mt-4">
               Member Checkout
             </button>
           </div>

@@ -16,7 +16,7 @@ export default function Header() {
 
 
 <header className="bg-color3 border-b h-[84px] py-2">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
     <div className="flex justify-between items-center h-16">
  
       <Link href="/" className="flex items-center space-x-2">
@@ -28,28 +28,46 @@ export default function Header() {
      
       <div className="hidden md:flex flex-1 justify-center"></div>
 
-      <div className="hidden md:flex items-center justify-center w-24 md:w-36 h-11 gap-3 bg-white">
-       <Link href={'/cart'}><ShoppingCart className="h-5 w-5" /></Link>
+      <Link href={'/cart'}>   <button className="hidden md:flex items-center justify-center w-24 md:w-36 h-11 gap-3 bg-white">
+       <ShoppingCart className="h-5 w-5" />
         <span className="text-[12px] font-medium text-color1">Cart</span>
         <div className="w-5 h-5 text-[10px] rounded-[50%] text-white bg-iconcolor flex items-center justify-center">
           2
         </div>
-      </div>
-
+      </button>
+       </Link>
+ 
       <Sheet>
         <SheetTrigger>
           <RiMenuLine size={28} className="font-bold md:hidden" />
         </SheetTrigger>
-        <SheetContent className="flex flex-col items-center justify-center py-32 bg-white">
-          <ul className="mb-2 space-y-24 ">
-          <Link href={"/"} ><li className="text-[#636270] text-[14px] font-meduim">Home</li></Link>
-        <Link href={"/products"}><li className="text-[#636270] text-[14px] font-meduim">Shop</li></Link>
-        <Link href={"/contact"}><li className="text-[#636270] text-[14px] font-meduim">Product</li> </Link>
-        <Link href={"/contact"}><li className="text-[#636270] text-[14px] font-meduim">Pages</li> </Link>
-        <Link href={"/contact"}><li className="text-[#636270] text-[14px] font-meduim">About</li> </Link>
-        <p className="text-[14px] text-color1"><span className="text-[#636270]">Contact:</span>(808) 555-0111</p>
-          </ul>
-        </SheetContent>
+        
+        <SheetContent className="flex flex-col items-center py-20 px-6 bg-white">
+  <ul className="mb-6 text-center">
+    <Link href={"/"}>
+      <li className="text-[#636270] text-[18px] font-medium hover:text-btncolor mb-2">Home</li>
+    </Link>
+    <Link href={"/cart"}>
+      <li className="text-[#636270] text-[18px]  font-medium  hover:text-btncolor mb-2">Shop</li>
+    </Link>
+    <Link href={"/product"}>
+      <li className="text-[#636270] text-[18px] font-medium  hover:text-btncolor mb-2">Product</li>
+    </Link>
+    <Link href={"/faq"}>
+      <li className="text-[#636270] text-[18px] font-medium  hover:text-btncolor mb-2">Pages</li>
+    </Link>
+    <Link href={"/about"}>
+      <li className="text-[#636270] text-[18px] font-medium  hover:text-btncolor mb-2">About</li>
+    </Link>
+    <Link href={"/contact"}>
+      <li className="text-[#636270] text-[18px] font-medium  hover:text-btncolor mb-2">Contact</li>
+    </Link>
+  </ul>
+  <p className="text-[18px] text-center">
+    <span className="text-[#636270]">Contact:</span> (808) 555-0111
+  </p>
+</SheetContent>
+
       </Sheet>
     </div>
   </div>

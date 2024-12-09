@@ -31,9 +31,9 @@ const categories: Category[] = [
 
 export default function CategoryCards() {
   return (
-    <section className='py-12 md:py-14'>
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-10 group">
-       <div className="w-full py-1 flex flex-row items-center justify-between ml-1 mb-5">
+    <section className='py-8 md:py-14'>
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 group">
+       <div className="w-full py-1 flex flex-row items-center justify-center md:justify-between ml-1 mb-3 md:mb-5">
                 <span className="text-[24px] md:text-[32px] font-semibold text-color1">Top Categories</span>
             </div>
       <div className="py-6 md:px-0 px-4 space-y-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">

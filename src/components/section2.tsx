@@ -31,27 +31,17 @@ const products = [
  export default function Section3() {
 
   return (
-    <div className="bg-white py-14 md:py-16 ">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-12 md:py-16 ">
+      <div className="max-w-6xl mx-auto px-6 sm:px-6 lg:px-4">
         <div className="relative">
-          {/* Vertical Text */}
-          <div className="hidden lg:block absolute -left-12 top-1/2 -translate-y-1/2">
-            <div className="flex items-center transform -rotate-90 origin-center whitespace-nowrap">
-              <span className="text-[12px] uppercase tracking-[0.2em] font-medium text-gray-600">
-                Explore new and popular styles
-              </span>
-            </div>
-          </div>
-
-          {/* Mobile Text (shown only on small screens) */}
-          <div className="mb-8 lg:hidden">
-            <span className="text-[12px] uppercase tracking-[0.2em] font-medium text-gray-600">
+  
+          <div className="mb-8 lg:hidden text-center">
+            <span className="text-[12px] uppercase tracking-[0.2em] text-color1 font-semibold">
               Explore new and popular styles
             </span>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
-            {/* Large Featured Image */}
             <div className="lg:row-span-2">
               <div className="relative aspect-[4/3] lg:aspect-auto overflow-hidden bg-[#F5F5F5] rounded-sm h-full">
                 <img
@@ -62,7 +52,6 @@ const products = [
               </div>
             </div>
 
-            {/* Grid of Smaller Images */}
             <div className="grid grid-cols-2 gap-4 h-full">
               {products.slice(1).map((product) => (
                 <div 
