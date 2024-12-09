@@ -1,8 +1,17 @@
 import carddata from "@/Productdata/data";
 import ProductCard from "./productcard";
 
+export interface ProductData {
+  index: number;
+  image: string;
+  tag?: string;
+  cutprice?: string;
+}
+
+
 export default function Products() {
   const products=carddata.splice(0,8);
+  
   return (
     <>
       <section className="py-14">
@@ -14,14 +23,17 @@ export default function Products() {
           </div>
 
           <div className="py-6 w-full flex flex-wrap gap-x-6 gap-y-10 justify-center md:justify-center">
-            {products.map((e, index) => (
+            {products.map((e) => (
+              
               <ProductCard
-                key={index}
-                index={e.index}
-                image={e.image}
-                tag={e.tag}
-                cutprice={e.cutprice}
+              key={e.index}
+              index={e.index}
+              image={e.image}
+              tag={e.tag}
+              cutprice={e.cutprice}
               />
+          
+
             ))}
           </div>
         </div>
