@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const instagramPosts = [
   {
@@ -47,7 +47,7 @@ export function ProductPosts() {
               className="aspect-square overflow-hidden rounded-lg hover:opacity-90 transition-opacity cursor-pointer"
             >
               <img
-                src={`${post.imageUrl}?w=300&h=300&fit=crop`}
+                src={`${post.imageUrl}`}
                 alt={post.alt}
                 className="w-full h-full object-cover"
                 loading="lazy"

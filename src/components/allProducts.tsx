@@ -32,7 +32,7 @@ const carddata:pdata[]=[
   },
   {
       index:4,
-      image:"/images/Category2.png",
+      image:"/images/Parent2.png",
       tag:"New",
   },
   
