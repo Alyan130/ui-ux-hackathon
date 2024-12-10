@@ -15,7 +15,7 @@ export default function SingleProduct({params}:params){
     return(
        <>
        <ProductDetail
-        image={carddata[index]?.image || "/images/Image.png" }
+        image={carddata[index]?.image || "/images/Image2.png" }
        />
    
        <DetailCards/>

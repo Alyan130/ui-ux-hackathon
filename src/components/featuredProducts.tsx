@@ -1,6 +1,8 @@
 import carddata from "@/Productdata/data";
 import ProductCard from "./productcard";
 
+  
+
 export default function FeaturedProdoucts(){
 const products=carddata.splice(0,4)
 
@@ -22,6 +24,9 @@ const products=carddata.splice(0,4)
                />
 )}
             </div>
+
+
+
         </div>
         </section>
         </>
