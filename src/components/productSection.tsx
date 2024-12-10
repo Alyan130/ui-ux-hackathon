@@ -1,16 +1,59 @@
-import carddata from "@/Productdata/data";
 import ProductCard from "./productcard";
 
-export interface ProductData {
-  index: number;
-  image: string;
-  tag?: string;
-  cutprice?: string;
+interface pdata{
+  index:number,
+  image:string,
+  tag?:string,
+ cutprice?:string,
 }
+
+const carddata:pdata[]=[
+  {
+      index:0,
+      image:"/images/Image.png",
+      tag:"New",
+       
+  },
+  {
+      index:1,
+      image:"/images/Image1.png",
+      tag:"Sale",
+      cutprice:"$30",
+  },
+  {
+      index:2,
+      image:"/images/Image2.png",
+      
+  },
+  {
+      index:3,
+      image:"/images/card.png",
+  },
+  {
+    index:4,
+    image:"/images/Category2.png",
+    tag:"New",
+},
+{
+    index:5,
+    image:"/images/02.png",
+    tag:"Sale",
+    cutprice:"$30",
+},
+{
+    index:6,
+    image:"/images/pro2.png",
+  
+},
+{
+    index:7,
+    image:"/images/Image.png",
+   
+},
+]
 
 
 export default function Products() {
-  const products=carddata.splice(0,8);
   
   return (
     <>
@@ -23,7 +66,7 @@ export default function Products() {
           </div>
 
           <div className="py-6 w-full flex flex-wrap gap-x-6 gap-y-10 justify-center md:justify-center">
-            {products.map((e) => (
+            {carddata.map((e) => (
               
               <ProductCard
               key={e.index}
