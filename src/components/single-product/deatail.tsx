@@ -14,7 +14,7 @@ export default function ProductDetail({image}:{image:string}) {
                 style={{ backgroundImage: `url(${image})` }}
               ></div>
  
- <div className="pl-4 md:pl-16 w-full md:w-[50%] h-[400px] sm:h-[430px] md:h-[450px] lg:h-[478px] flex flex-col items-start justify-between ">
+ <div className="pl-4 md:pl-16 w-full md:w-[50%] h-[400px] sm:h-[430px] md:h-[400px] lg:h-[478px] flex flex-col items-start justify-between md:-mt-20 lg:-mt-0">
                 <div className="w-[90%]">
                   <h2 className="text-4xl leading-[48px] md:eading-[72px] font-inter text-color1 md:text-6xl font-bold mb-4 md:mb-6 lg-mb-8">
                   Library Stool <br /> Chair

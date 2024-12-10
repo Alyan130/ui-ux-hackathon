@@ -15,7 +15,7 @@
 
   return(
     <>
- <div className=" hover:scale-105 transition-all duration-200 ease w-[320px]  md:w-[260px] h-96 flex flex-col">
+ <div className=" hover:scale-105 transition-all duration-200 ease w-[320px]  md:w-[240px] h-96 flex flex-col">
   
  <Link href={`/product/${index}`}><div  className="relative w-full h-80 rounded-[10px] bg-cover bg-center"
         style={{backgroundImage:`url("${image}")`}}>

@@ -27,7 +27,7 @@ export default function Section1() {
               </div>
   
               <div
-                className="w-full md:w-[50%] h-[200px] md:h-[478px] bg-cover bg-center"
+                className="w-full md:w-[50%] h-[230px] md:h-[478px] bg-cover bg-center"
                 style={{ backgroundImage: `url("/images/Image.png")` }}
               ></div>
             </div>

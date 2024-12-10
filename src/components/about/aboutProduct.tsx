@@ -23,7 +23,7 @@ export default function OurPopularProducts() {
   ];
 
   return (
-    <section className="max-w-7xl ml-0  md:ml-16  mx-auto px-4 sm:px-6 lg:px-1 py-10 mb-4 lg:mb-10">
+    <section className="max-w-7xl ml-0  md:ml-16  mx-auto px-4 sm:px-6 lg:px-1 mt-14 md:mt-12 mb-4 lg:mb-10">
       <div className="w-full py-1 flex flex-row items-center justify-center md:justify-between mb-5">
         <span className="text-[24px] md:text-[32px] font-semibold text-color1">
         Our popular Products

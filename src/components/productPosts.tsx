@@ -13,17 +13,17 @@ const instagramPosts = [
   },
   {
     id: 3,
-    imageUrl: '/images/image1.png',
+    imageUrl: '/images/Parent.png',
     alt: 'Pink accent chair'
   },
   {
     id: 4,
-    imageUrl: '/images/image.png',
+    imageUrl: '/images/Parent2.png',
     alt: 'White dining chair'
   },
   {
     id: 5,
-    imageUrl: '/images/image2.png',
+    imageUrl: '/images/pro2.png',
     alt: 'Orange modern chair'
   },
   {
