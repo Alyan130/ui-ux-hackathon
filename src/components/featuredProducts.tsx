@@ -23,7 +23,7 @@ interface Product {
       id: 1,
       title: "Library Stool Chair",
       price: 20,
-      image: "/images/image.png",
+      image: "/image.png",
       badge: {
         text: "New",
         variant: "success",
@@ -34,7 +34,7 @@ interface Product {
       title: "Library Stool Chair",
       price: 20,
       originalPrice: 30,
-      image: "/images/image1.png",
+      image: "/image1.png",
       badge: {
         text: "Sales",
         variant: "destructive",
@@ -44,13 +44,13 @@ interface Product {
       id: 3,
       title: "Library Stool Chair",
       price: 20,
-      image: "/images/image2.png",
+      image: "/image2.png",
     },
     {
       id: 4,
       title: "Library Stool Chair",
       price: 20,
-      image: "/images/card.png",
+      image: "/card.png",
     },
   ]
   
