@@ -65,7 +65,7 @@ export default function Products() {
             </span>
           </div>
 
-          <div className="py-6 px-4 sm:px-2 md:px-0 w-full flex flex-wrap gap-x-6 gap-y-10 justify-center md:justify-center">
+          <div className="py-6 px-4 sm:px-2 md:px-0 w-full flex flex-wrap gap-x-10 gap-y-10 justify-center md:justify-center">
             {carddata.map((e) => (
               
               <ProductCard

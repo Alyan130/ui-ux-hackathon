@@ -88,7 +88,7 @@ export default function AllProducts() {
               All Products
             </span>
           </div>
-<div className="py-4 px-4 sm:px-2  md:px-0 w-full flex flex-wrap gap-x-4  gap-y-10 md:gap-y-12 justify-center md:justify-center">
+<div className="py-4 px-4 sm:px-2  md:px-0 w-full flex flex-wrap gap-x-9  gap-y-10 md:gap-y-12 justify-center md:justify-center">
   {carddata.map((e) => (
     <ProductCard
       key={e.index}
